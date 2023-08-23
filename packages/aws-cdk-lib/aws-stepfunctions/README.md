@@ -463,6 +463,8 @@ A `Map` state will execute the same steps for multiple entries of an array in th
 While the `Parallel` state executes multiple branches of steps using the same input, a `Map` state will
 execute the same steps for multiple entries of an array in the state input.
 
+Will add new documentation here.
+
 ```ts
 const map = new sfn.Map(this, 'Map State', {
   maxConcurrency: 1,
